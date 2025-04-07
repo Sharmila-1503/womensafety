@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Women's Safety Web Application
 
 This is a web-based women's safety application designed to provide quick and discreet emergency assistance. The application includes features for emergency contact registration and location-based emergency alerts.
@@ -92,3 +93,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Disclaimer
 
 This application is designed as an additional safety measure and should not be relied upon as the sole means of emergency response. Always ensure you have multiple safety measures in place and are aware of local emergency services in your area.
+=======
+# womensafety
+>>>>>>> d62cc7d17f8567b055e42f5b8548643cbc9ffdda

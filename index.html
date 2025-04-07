@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Safety App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Women's Safety Portal</h1>
+        </header>
+
+        <div class="emergency-section">
+            <button id="emergencyBtn" class="emergency-btn">
+                Press for Emergency (208)
+            </button>
+            <p class="help-text">Press and hold for 3 seconds to activate emergency response</p>
+        </div>
+
+        <div class="features-section">
+            <h2>Quick Actions</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <h3>Register Contact</h3>
+                    <form id="contactForm">
+                        <input type="text" id="contactName" placeholder="Emergency Contact Name">
+                        <input type="tel" id="contactPhone" placeholder="Emergency Contact Number">
+                        <button type="submit">Save Contact</button>
+                    </form>
+                </div>
+                <div class="feature-card">
+                    <h3>Safe Locations</h3>
+                    <div id="map" class="map-container"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
